@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="com-appcelerator-apm-id" type="string">5336cbd8e151bd4652000012</property>
+    <property name="acs-authbase-url" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">RxmxiQXYQfHJde7OioP1HqIS3l60olPm</property>
+    <property name="acs-oauth-key-development" type="string">KFm8T1iBBxxXHFnXQAnBIEfv6KwLXOMd</property>
+    <property name="acs-api-key-development" type="string">a2KXsWLxyazWELmEchY3IfbiTHtL4Jbk</property>
+    <property name="acs-oauth-secret-production" type="string">hpILZ9IpOG6IZPuHiaxJFTx8l82K40Ov</property>
+    <property name="acs-oauth-key-production" type="string">HdxQvyiJGBamS09PgfzC52Q78ceCC5Np</property>
+    <property name="acs-api-key-production" type="string">Ha0HQhNrRQuLJD6ZGFglqYopzl0Th5Cf</property>
+    <id>com.test.acs.facebook</id>
+    <name>ACSFacebook</name>
+    <version>1.0</version>
+    <publisher>hazemkhaled</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2014 by hazemkhaled</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>38c6839e-f4fd-41bd-b905-e933c87d13a3</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="ti.facebook.appid" type="string">301332450019451</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>tiacsfb</string>
+                            <string>fb301332450019451</string>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android" />
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.3.0.v20140325180330</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+        <plugin>com.soasta.touchtest.android</plugin>
+    </plugins>
+    <property name="com-soasta-touchtest-version" type="string">6937.119</property>
+    <property name="com-soasta-touchtest-ios-appId" type="string">205897</property>
+</ti:app>

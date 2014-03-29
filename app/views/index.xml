@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" title="ACS Social Integrations">
+		<Button onClick="doClick" id="fbBtn">Login</Button>
+	</Window>
+</Alloy>
